@@ -32,18 +32,26 @@ University of Wisconsin-La Crosse<br>
 </center>
 
 
-<h1 id="student-info">
-<form>
+<div id="student-info">
 	Name:
   	<input type="text" name="studentname" required=true id="studentName">
-    	Student ID#:
+	Student ID#:
   	<input type="number" name="studentid" maxlength="9" required=true id="studentID"> <br>
 	Telephone:
 	<input type="number" name="studentphone" required=true id="studentPhone">
 	Cumulatie GPA:
 	<input type="number" maxlength="4"  required=true id="studentGPA">
-</form>
-</h1>
+</div>
+<br>
+Students must be in <b>GOOD ACADEMIC STANDING</b> and meet specific college transfer requirements to transfer to another colllege. Some programs have additional transfer requirements (i.e. GPA or course requirements, department or program approval, etc).
+<br>
+<br>
+<div id="current-major-minor">
+	<b><u>Current</u> major plan(s):</b> <input type="text" name="studentCurMajor" required=true id="studentCurMajor">
+	<br><b><u>Current</u> minor plan(s):</b> <input type="text" name="studentCurMinor" required=true id="studentCurMinor">
+	<br>College/School of:<input type="text" name="studentCurCollege" required=true id="CurCollege">
+
+</div>
 
 <button id="btnSubmit">
     submit
